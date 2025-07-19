@@ -1,0 +1,23 @@
+{
+  "name_input": [
+    "Ooh, so you’re the one called ~",
+    "Hmm... that’s a strong name. , right?",
+    "You typed it yourself, so it must be true... .",
+    "I’ll remember that. , sealed in.",
+    "Let’s see what kind of storm you are,."
+  ],
+  "under_18": [
+    "Still in the early levels, but already impressive.",
+    "You're growing, learning—don’t try to skip steps.",
+    "Keep walking. Even small strides matter.",
+    "The world isn’t rushing you. Don't rush yourself.",
+    "Being young doesn’t mean being weak. Just untamed."
+  ],
+  "adult_18_plus": [
+    "You’ve seen some of life’s teeth already, haven’t you?",
+    "No illusions left—just willpower and coffee.",
+    "You’re not a beginner anymore. Let’s act like it.",
+    "No more excuses. You walk your own warpath now.",
+    "You know pain, and you kept going. That counts."
+  ]
+}
