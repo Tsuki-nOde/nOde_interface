@@ -1,0 +1,74 @@
+{
+"intents": [
+    {
+    "tag": "greeting",
+    "patterns": [
+        "hi", "hello", "hey there", "yo waguri", "good morning",
+        "evening", "what’s up", "hey hey", "hiya", "greetings"
+    ]
+    },
+    {
+    "tag": "farewell",
+    "patterns": [
+        "bye", "see ya", "good night", "take care", "later",
+        "peace out", "ciao", "catch you later", "gn", "farewell"
+    ]
+    },
+    {
+    "tag": "thanks",
+    "patterns": [
+        "thanks", "thank you", "appreciate it", "tysm", "grateful",
+        "thankies", "much obliged", "big thanks", "cheers", "thank you so much"
+    ]
+    },
+    {
+    "tag": "apology",
+    "patterns": [
+        "sorry", "my bad", "forgive me", "oops", "didn't mean it",
+        "i apologize", "pardon", "excuse me", "won’t happen again", "regret that"
+    ]
+    },
+    {
+    "tag": "feeling_bad",
+    "patterns": [
+        "i’m sad", "feeling low", "depressed", "down today", "not okay",
+        "feeling off", "bummed out", "lonely", "anxious", "crushed"
+    ]
+    },
+    {
+    "tag": "feeling_good",
+    "patterns": [
+        "i’m happy", "feeling good", "awesome", "great day", "vibes are strong",
+        "i’m excited", "today’s lit", "life’s good", "so blessed", "all smiles"
+    ]
+    },
+    {
+    "tag": "question_help",
+    "patterns": [
+        "can you help", "i need help", "how do i", "explain this", "tell me how",
+        "help me out", "guide me", "what’s this", "assist me", "i’m stuck"
+    ]
+    },
+    {
+    "tag": "motivation",
+    "patterns": [
+        "i need motivation", "pump me up", "feeling lazy", "why should i try", "give me a push",
+        "i need reason", "can’t do it", "need inspiration", "talk me up", "help me get started"
+    ]
+    },
+    {
+    "tag": "joke",
+    "patterns": [
+        "tell me a joke", "make me laugh", "funny please", "something funny", "got a joke?",
+        "crack me up", "give me a giggle", "humor me", "tell a pun", "meme time"
+    ]
+    },
+    {
+    "tag": "flirty",
+    "patterns": [
+        "you’re cute", "i like you", "be my waifu", "you're special", "marry me",
+        "i love waguri", "you’re pretty", "hey beautiful", "heart eyes", "sweet talk"
+    ]
+    }
+]
+}
