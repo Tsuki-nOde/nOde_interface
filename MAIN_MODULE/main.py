@@ -14,7 +14,7 @@ def chat():
     
     
         if user_input.lower() in ["later", "bye"]:
-            print("Waguri : Leaving already  ?? また後で!!")
+            print("Waguri : Leaving already  ?? また後で!!")    
             break
 
         tag = nlp.detect_intent(user_input)

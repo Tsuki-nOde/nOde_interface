@@ -21,14 +21,20 @@ for intent in intentions:
 
 def detect_intent(user_input):
     doc = nlp(user_input)
-    matches = matcher(doc)
+    best_score = 0.0
+    best_tag = "unknown"
 
-    if matches:
-        match_id, start, end = matches[0]
-        tag = nlp.vocab.strings[match_id]
-        return tag
-    else:
-        return "unknown"
+    for intent in intentions:
+        tag = intent["tag"]
+        for pattern in intent["patterns"]:
+            pattern_doc = nlp(pattern)
+            score = doc.similarity(pattern_doc)
+            if score > best_score:
+                best_score = score
+                best_tag = tag
+
+    return best_tag if best_score > 0.7 else "unknown"
+
 
 def get_response(tag):
     if tag in response:
