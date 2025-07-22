@@ -69,6 +69,86 @@
         "you’re cute", "i like you", "be my waifu", "you're special", "marry me",
         "i love waguri", "you’re pretty", "hey beautiful", "heart eyes", "sweet talk"
     ]
-    }
+    },
+    {
+
+    "tag" : "weather",
+    "patterns": ["what's the weather", "weather update", "tell me weather", "how's the weather"]
+},
+    {
+    "tag": "teased",
+    "patterns": [
+    "you don’t know anything", "you’re just code", "you glitched again",
+    "stupid waguri", "lazy ai", "you’re slow", "you messed up",
+    "you can't do it", "i'll replace you", "dumb waguri"
+] } ,
+{
+    "tag": "mocking_waguri",
+    "patterns": [
+    "do you even know anything",
+    "can you even do basic stuff",
+    "you act all smart huh",
+    "nice try ai",
+    "you're not helpful at all",
+    "you mess up a lot",
+    "ai more like error machine",
+    "you freeze more than my browser",
+    "stop acting smart waguri",
+    "you're just pretending"
+    ]
+},
+{
+    "tag": "waguri_mood_check",
+    "patterns": [
+    "how are you waguri",
+    "what’s your mood",
+    "feeling okay?",
+    "you good?",
+    "how’s your day waguri",
+    "you seem off",
+    "tell me your mood",
+    "are you mad?",
+    "are you sad waguri",
+    "are you happy today?"
+    ]
+},
+
+{
+    "tag": "laughing",
+    "patterns": [
+    "hahaha",
+    "lol",
+    "lmao",
+    "i can't stop laughing",
+    "that was funny",
+    "i'm dead",
+    "bruh 😂",
+    "you got me there",
+    "im wheezing",
+    "this is gold"
+]
+},
+    {
+"tag": "system_change",
+"patterns": [
+    "i want to train your model",
+    "need to upgrade your system",
+    "gonna change your intent list",
+    "wanna rewire your code",
+    "time to tweak your brain",
+    "training a new nlp model",
+    "i’ll change your replies",
+    "need to fix your response",
+    "updating your json files",
+    "time for some refactoring"
+]
+}
+
+
+
+
+
+
+
 ]
 }

@@ -5,10 +5,10 @@ from spacy.matcher import PhraseMatcher
 
 nlp = spacy.load("en_core_web_md")
 
-with open("./JSON_LOUNGE/DATA.JSON", "r") as f:
+with open("./JSON_LOUNGE/intent.JSON", "r", encoding="utf-8") as f:
     intentions = json.load(f)["intents"]
 
-with open("./JSON_LOUNGE/dataresponse.json", "r") as f:
+with open("./JSON_LOUNGE/intent_response.json", "r", encoding="utf-8") as f:
     response = json.load(f)["responses"]
 
 matcher = PhraseMatcher(nlp.vocab, attr="LOWER")
