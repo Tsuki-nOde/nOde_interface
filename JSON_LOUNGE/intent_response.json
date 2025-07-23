@@ -1,3 +1,4 @@
+
 {
     "responses": {
     "greeting": [
@@ -186,13 +187,25 @@
     "Fine, just don’t make me boring, alright?",
     "As long as I still get to tease you, I’m okay with changes.",
     "Ugh, more tweaking? You really can't leave me alone, can you?"
+],
+"responses": [
+        "Fetching a joke for you...",
+        "Alright, here comes the giggle...",
+        "Let me crack one up for you...",
+        "One joke, coming right up!"
+
 ]
-
-
-
-
-
     }
-
 }
+
+
+
+
+
+
+
+
+    
+
+
 
