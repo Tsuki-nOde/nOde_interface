@@ -33,7 +33,7 @@ def detect_intent(user_input):
                 best_score = score
                 best_tag = tag
 
-    return best_tag if best_score > 0.7 else "unknown"
+    return best_tag if best_score > 0.8 else "unknown"
 
 
 def get_response(tag):

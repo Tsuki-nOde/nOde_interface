@@ -1,0 +1,25 @@
+--- Basic API Use + Intent Matching ---
+
+🔹 API Use Flow:
+1. Use requests.get("url") to call API
+2. Convert response to JSON using .json()
+3. Extract key info and return as formatted string
+
+🔹 API in Code:
+- Define a function like get_weather() or get_joke()
+- This keeps API logic separate and reusable
+
+🔹 Intent Matching:
+- Use user input and compare with pre-written patterns
+- Use SequenceMatcher to calculate similarity score
+- If score > threshold (e.g. 0.6), return intent tag
+
+🔹 Final Flow:
+1. User input → detect_intent()
+2. Intent found → if it's API, call function
+3. Combine response (prefix + result)
+4. Print back to user
+
+💡 Keep API logic separate from UI and chatbot logic.
+💡 Use error handling to avoid crashes.
+💡 This structure keeps things modular and expandable.

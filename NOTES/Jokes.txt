@@ -1,0 +1,34 @@
+--- Intent Detection + Joke API Integration ---
+
+🔹 similar(a, b)
+- Uses SequenceMatcher from difflib to compare two strings
+- Returns a float between 0 and 1 (similarity ratio)
+- Used to detect fuzzy matches between user input and patterns
+
+🔹 detect_intent(user_input)
+- Loops through all intent patterns
+- Compares each with user_input using `similar()`
+- Tracks highest score and corresponding intent tag
+- Returns intent if score > 0.6, else returns None
+
+🔹 get_joke()
+- Calls "https://official-joke-api.appspot.com/jokes/random"
+- Parses JSON to get:
+    - 'setup'
+    - 'punchline'
+- Returns formatted joke or fallback message on error
+
+🔹 generate_response(user_input)
+- Detects intent using detect_intent()
+- If intent is "joke":
+    → Chooses a random prefix from response_data
+    → Gets a random joke using get_joke()
+    → Combines them and returns
+- Else:
+    → Returns fallback "didn’t get that..." message
+
+💡 Notes:
+- SequenceMatcher allows approximate matching (not just exact phrases)
+- Good for natural conversation handling
+- Joke API adds personality & real-time content
+- Could add more intents with dynamic API-based responses

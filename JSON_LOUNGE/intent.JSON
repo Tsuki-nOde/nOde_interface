@@ -4,7 +4,7 @@
     "tag": "greeting",
     "patterns": [
         "hi", "hello", "hey there", "yo waguri", "good morning",
-        "evening", "what’s up", "hey hey", "hiya", "greetings"
+        "evening", "what’s up", "hey", "hiya", "greetings"
     ]
     },
     {
@@ -154,13 +154,68 @@
         "give me a joke",
         "cheer me up"
     ]
-}
+},
+{
+"tag": "introduction",
+"patterns": [
+    "who are you",
+    "introduce yourself",
+    "what is your name",
+    "tell me about yourself",
+    "what are you",
+    "are you an ai",
+    "are you real"]},
 
-
-
-
-
-
-
+    {
+"tag": "compliment",
+"patterns": [
+    "good job",
+    "well done",
+    "that was nice",
+    "great work",
+    "you’re amazing",
+    "nice work",
+    "awesome response",
+    "you did well",
+    "that’s perfect",
+    "you’re smart"
+        ]},
+{
+"tag": "creator",
+"patterns": [
+    "who created you",
+    "who is your creator",
+    "who made you",
+    "who developed you",
+    "who is your owner",
+    "who is your master",
+    "who is behind you",
+    "who coded you",
+    "who built you",
+    "who's your developer"
+        ]
+    },
+    {
+"tag": "date_time",
+"patterns": [
+    "what time is it",
+    "tell me the time",
+    "current time",
+    "do you know the time",
+    "what's the date",
+    "tell me the date",
+    "date and time",
+    "show time"
 ]
 }
+    
+
+
+]}
+
+
+
+
+
+
+

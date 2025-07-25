@@ -1,0 +1,34 @@
+--- Weather API Integration + Intent Handling ---
+
+🔹 get_weather(city = "Mathura")
+- Uses WeatherAPI to fetch real-time weather data
+- Steps:
+  - Builds URL with API key & city
+  - Sends GET request using `requests.get()`
+  - Parses response JSON for:
+    - temp_c: Current temperature
+    - condition["text"]: Weather condition
+    - feelslike_c: Perceived temperature
+    - humidity: Humidity level
+- Returns formatted string like:
+  "It's currently 32°C in Mathura with Clear skies..."
+- Handles errors using try-except
+  - Returns fallback line if request fails:
+    "Hmm... I couldn't fetch the weather right now..."
+
+🔹 get_response(intent_tag)
+- Routes user input to a function or response
+- If intent_tag == "weather":
+    → Calls get_weather()
+- Else:
+    → Searches global `response` list for matching tag
+    → Returns a random string from `"responses"` array
+- If no match:
+    → Returns default unknown response
+
+💡 Notes:
+- `requests.get(url)` returns an HTTP response object
+- `.json()` method converts it into a Python dict
+- Error handling is essential to avoid crashes
+- This pattern helps keep the chatbot modular:
+  - Intent → Response handler → Dynamic or static output

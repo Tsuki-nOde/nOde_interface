@@ -46,5 +46,5 @@ def generate_response(user_input):
         return "Hmm, I didn’t quite get that... try again?"
 
 # Sample test
-user_input = input("You: ")
-print("Waguri:", generate_response(user_input))
+# user_input = input("You: ")
+# print("Waguri:", generate_response(user_input))
