@@ -7,18 +7,15 @@ import os
 
 responses_path = os.path.join(os.path.dirname(__file__), 'intent_responses.json')
 
-# Load model
+
 model = SentenceTransformer('sentence-transformers/all-MiniLM-L6-v2')
 
-# Load intents
 with open("./JSON_LOUNGE/intent.JSON", "r", encoding="utf-8") as f:
     intents = json.load(f)["intents"]
 
-# Load responses
 with open("./JSON_LOUNGE/intent_response.json", "r", encoding="utf-8") as f:
     response_data = json.load(f)["responses"]
 
-# Precompute embeddings for patterns
 intent_patterns = []
 intent_tags = []
 

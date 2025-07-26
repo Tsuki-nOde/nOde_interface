@@ -37,6 +37,6 @@ if __name__ == "__main__":
     print(get_response("date_time"))
 
 
-if __name__ == "__main__":
-    t, d = get_date_time()
-    print(f"[DEBUG] Time: {t}, Date: {d}")
+# if __name__ == "__main__":
+#     t, d = get_date_time()
+#     print(f"[DEBUG] Time: {t}, Date: {d}")
