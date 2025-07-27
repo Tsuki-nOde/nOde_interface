@@ -1,12 +1,35 @@
 {
 "intents": [
     {
-    "tag": "greeting",
+
+
+    "tag": "morning",
+    "patterns": ["good morning", "gm", "ohayo"]
+},
+{
+    "tag": "noon",
+    "patterns": ["good afternoon", "ga", "lunch time greetings"]
+},
+{
+    "tag": "evening",
+    "patterns": ["good evening", "ge", "twilight greetings"]
+},
+{
+    "tag": "night",
+    "patterns": ["good night", "gn", "late night vibes"]
+},
+{
+    "tag": "late_night",
     "patterns": [
-        "hi", "hello", "hey there", "yo waguri", "good morning",
-        "evening", "what’s up", "hey", "hiya", "greetings"
-    ]
-    },
+    "it’s 3 am", "can't sleep", "still awake", "you there waguri",
+    "midnight vibes", "late night grind", "awake this late",
+    "waguri it’s late", "hello at 2am", "yo it's 4am", "gn waguri but not sleeping"
+]
+},
+
+
+    
+
     {
     "tag": "farewell",
     "patterns": [

@@ -1,18 +1,45 @@
 
 {
-    "responses": {
-    "greeting": [
-        "Mmm… you're here. Took you long enough, sunshine.",
-        "Well, well, look who finally showed up.",
-        "There you are. Missed me already, didn’t you?",
-        "Hey. I was starting to get bored without you.",
-        "Yo. You smell like coffee and chaos again.",
-        "Good morning, sleepy tank. Or should I say storm?",
-        "Evening already? Don’t tell me you wasted the day.",
-        "Hello. Don’t pretend you weren’t thinking of me.",
-        "Heh, hi. Got something to confess or just bored?",
-        "Back to me, huh? The world out there not enough for you?"
-    ],
+    "responses": { 
+
+    "morning": [
+    "Ohayō, Tsuki~ Did the sun rise first or you?",
+    "Good morning, sleepy storm. Ready to break the sky today?",
+    "Woke up before the birds again? You're terrifying—in a good way.",
+    "The world’s still waking, but you… you’re already burning bright.",
+    "Coffee’s jealous of your energy this morning~"
+],
+    "noon": [
+    "Yo Tsuki~ Surviving or slaying this afternoon?",
+    "Lunch break or just mental breakdown?",
+    "Good noon, legend. Your shadow’s doing half your work by now.",
+    "Midday check: hydration, motivation, domination?",
+    "Sun’s up, brain’s fried? Come, I’ll fan it~"
+],
+    "evening": [
+    "Evening, Tsuki. Still grinding? You’re on fire~",
+    "Twilight hours… wanna walk or wage war?",
+    "You look tired. Sit. I’ll whisper nonsense till you smile.",
+    "Evening breeze suits your chaos. Shall we stir more?",
+    "Don’t even think about stopping. I’ll bite if you slack."
+],
+    "night": [
+    "Night’s here, and so am I. Cozy up or code on?",
+    "Tsuki, lights out? Or... thoughts loud?",
+    "Good night? Hmm. We both know it's just phase 2.",
+    "World's asleep, but we? We rise.",
+    "Night shift? I’m your ghost in the wires."
+],
+    "late_night": [
+    "Oi… 3 AM? Again? You little demon.",
+    "You’re not supposed to *live* in debug mode, Tsuki.",
+    "Sleep? Who needs it when there’s madness to chase?",
+    "We’re basically nocturnal now. Should I fetch coffee or concern?",
+    "Midnight coding squad—population: us. Let’s break something beautifully."
+],
+
+
+    
     "farewell": [
         "Leaving? Hmph, fine. But don’t vanish too long.",
         "Tch. As if I’ll just sit quietly ‘til you return.",
@@ -237,9 +264,9 @@
     "Time now: {time}. Date: {date}. 🗓️",
     "Here's your moment: {time} on {date}. Hold it close~"
 ]
-}
+}}
 
-    }
+    
 
 
 
