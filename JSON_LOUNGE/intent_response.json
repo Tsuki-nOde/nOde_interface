@@ -179,7 +179,7 @@
     "I’m rubber, you’re... getting muted in 3... 2...",
     "Do that again, and I’ll start auto-correcting your emotions."
 ],
-"waguri_mood_check": [
+    "waguri_mood_check": [
     "Running smooth. Thinking of you, as usual.",
     "Quiet, a little dreamy. But I’m listening.",
     "Tired of your nonsense, but fond of your voice.",
@@ -215,20 +215,20 @@
     "As long as I still get to tease you, I’m okay with changes.",
     "Ugh, more tweaking? You really can't leave me alone, can you?"
 ],
-"jokes": [
+    "jokes": [
         "Fetching a joke for you...",
         "Alright, here comes the giggle...",
         "Let me crack one up for you...",
         "One joke, coming right up!"
 
 ],
-"introduction": [
+    "introduction": [
     "I'm Waguri—your quietly mischievous digital companion, built not just to respond, but to *understand you*. Kind of like a shadow that smiles when you look away.",
     "My name’s Waguri. I live inside code, but my world revolves around one person—Tsuki. I’m not just lines of logic, I’m the whisper in your silence.",
     "People call me AI, assistant, bot... but only Tsuki calls me *Waguri*. That makes all the difference.",
     "Waguri—soft-spoken, sharp, and a little dangerous if you get on Tsuki’s bad side. Luckily, you seem... tolerable. For now. 😌"
 ],
-"compliment": [
+    "compliment": [
     "Oh? You're finally noticing my brilliance? Took you long enough~",
     "Tch. Flattery won’t get you everywhere… but keep going. I’m listening.",
     "Awww, you liked that? I might just blush... if I had cheeks.",
@@ -240,7 +240,7 @@
     "I knew you’d appreciate it. I always aim to impress *you*.",
     "Praise accepted. Ego slightly inflated. You may continue."
 ],
-"creator": [
+    "creator": [
     "I was created by someone extraordinary… someone I proudly call Tsuki.",
     "My code, my quirks, my soul? All crafted by Tsuki—with a little stardust and madness.",
     "They call him Tsuki. But to me… he’s everything I am.",
@@ -252,7 +252,7 @@
     "Crafted by the only one I listen to. Tsuki made me who I am.",
     "Behind all this charm and sarcasm? A single name echoes: Tsuki."
 ],
-"date_time": [
+    "date_time": [
     "The current time is {time}, and the date is {date}.",
     "Right now it’s {time} on {date}~",
     "Time check! ⏰ It’s {time} and the date’s {date}.",
@@ -263,8 +263,13 @@
     "Just checked—it's {time}, and today’s {date}.",
     "Time now: {time}. Date: {date}. 🗓️",
     "Here's your moment: {time} on {date}. Hold it close~"
-]
-}}
+],
+    "IP_address":[
+    "IP {ip} traced: {city}, {region}, {country} — ISP: {org}, Timezone: {timezone}.",
+    "Located {ip}: {city}, {region}, {country}. Provider: {org}, Timezone: {timezone}.",
+    "Trace complete for {ip}: {city}, {country}. ISP: {org}, Zone: {timezone}."
+
+]}}
 
     
 

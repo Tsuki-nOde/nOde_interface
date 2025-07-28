@@ -5,6 +5,7 @@ sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
 from API_LOUNGE import weather, jokes_api, Date_time
 from LOGIC_ENGINE import Transformer
+from API_LOUNGE import IP 
 
 
 def handle_weather():
@@ -16,6 +17,9 @@ def handle_joke():
 def handle_datetime():
     time_str, date_str = Date_time.get_date_time()
     return f"It's {time_str} on {date_str}, Tsuki~"
+
+def handle_ip():
+    return f"the IP Adderess is : {IP.geo_lookup()}"
 
 def chat():
     print("Waguri: I’m all ears, Tsuki~ What’s on your mind?\n")
@@ -38,6 +42,12 @@ def chat():
             response = handle_joke()
         elif tag == "date_time":
             response = handle_datetime()
+        elif tag == "IP_address":
+            result = IP.waguri_response(user_input)
+            response = result['response']
+        
+        
+        
         else:
             response = Transformer.get_response_from_tag(tag)
 

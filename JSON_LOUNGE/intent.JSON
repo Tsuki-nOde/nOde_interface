@@ -230,11 +230,20 @@
     "date and time",
     "show time"
 ]
-}
-    
+},
+    {"tag" : "IP_address",
+    "patterns":[
+    "track_ip {ip}",
+    "trace {ip}",
+    "locate ip {ip}",
+    "check ip {ip},",
+    "find {ip}",
+    "where is {ip}",
+    "geo {ip}"
 
 
-]}
+
+    ]}]}
 
 
 
